@@ -1,0 +1,32 @@
+# This is the Overall Home Page:
+# First Part:
+Page Title
+
+
+# Second Part:
+Website Description
+
+# Third Part:
+Link to the Bill Form Page Here
+
+# This is the Overall Bill Form Page:
+Page Title
+Page Description
+Bill Amount:
+Bill Period:
+First Flatmate
+Name:
+Days in the House:
+Second Flatmate
+Name:
+Days in the House:
+Calculate
+
+Result Page:
+Results
+Link to Download the PDF
+
+Home Page
+Page Title
+Website Description
+Link to the Bill Form Page
