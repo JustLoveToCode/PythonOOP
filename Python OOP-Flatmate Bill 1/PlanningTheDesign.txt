@@ -1,0 +1,30 @@
+The Title of the Program
+Title: Flatmates Bill
+
+The Description of the Program
+Description: This Flatmates Bill allowed splitting of the
+Bill based on the Numbers of days the flatmates actually
+stay inside the house. 
+This will get the User Input for the Particular Period
+and the Days that each of the flatmates actually stayed
+in the house for the Particular Period. Based on how many
+days each flatmate actually stayed inside the house.
+It will return how much each flatmates have to pay,
+the periods and how much each of them have to pay.
+It will also generate the PDF Report stating the names
+of the flatmates, the period and how much each of them
+have to pay for it.
+
+
+# Thought Process:
+Objects:
+Bill:
+    amount
+    period
+FlatMate:
+     name
+     days_in_house
+     pays(bill)
+PdfReport:
+     filename
+     generate(flatmate1, flatmate2, bill, period)
