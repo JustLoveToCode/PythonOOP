@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is the Title</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+    <h2>Calories Calculation Form</h2>
+    <p>Fill in the Form and Click on the Button to know how many Calories
+    that you will need or require</p>
+<form action="/calories_form" method="post">
+    <p>Let get some information about you</p>
+    {{caloriesform.weight.label}} {{caloriesform.weight}}
+    <br>
+    {{caloriesform.height.label}} {{caloriesform.height}}
+    <br>
+    {{caloriesform.age.label}} {{caloriesform.age}}
+    <br>
+    <hr>
+    <p>Today Weather Counts too.<br>Tell us
+    where you are so we will include today temperature
+    into the calculation.</p>
+    <br>
+    <br>
+    {{caloriesform.button}}
+    <br>
+    {%if result==True %}
+    <h3>You need {{calories}} calories
+    (kcal) today</h3>
+    {%endif%}
+</form>
+</body>
+</html>

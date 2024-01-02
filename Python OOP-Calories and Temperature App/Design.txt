@@ -1,0 +1,15 @@
+Title : Calories Calculator:
+Description: An App that get from the User, the User Weight, Height,
+Age, City and Country. It will scrape the Temperature of the User Location
+using bs4 aka BeautifulSoup and Calculates How many Calories the User need.
+
+Objects: Calorie:
+            weight
+            height
+            age
+            temperature
+            calculate()
+         Temperature:
+            country
+            city
+            get()
