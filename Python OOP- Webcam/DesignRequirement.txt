@@ -1,0 +1,41 @@
+First Screen
+
+Camera Screen
+Start Button-This is the Camera Screen
+Capture Button
+
+Image Screen
+Second Screen
+## Ongoing Process:
+Image Screen
+## Image Upload to the Cloud.
+## Create Link Button
+Invisible Label Widget
+## The link is going to be displayed
+
+## What is the 2 Button?
+First Button Second Button
+First Button is Copy Link
+Second Button is Open Link on the Browser
+
+Title: Webcam Photo Sharing:
+Description: An App that start the Computer WebCam, let
+the user capture the Photo and upload the photo to the
+Web and create a Shareable Links.
+Object:
+Webcam:
+    start()
+    stop()
+    capture()
+Is the User important for the App: No.
+Does the App Differentiate between the Different User: No.
+The App does not want to know the Name of the User.
+FileSharer:
+    filepath
+    api
+    share()
+
+
+
+
+
